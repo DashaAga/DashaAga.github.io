@@ -1,19 +1,25 @@
-body {
-  margin: 0;
-}
+<div id="container">
+    <h1>Регистрация</h1>
+    <form name="Sel3">
+        <table>
+            <tr>
+                <td><b>Идентификатор:</b></td>
+                <td><input name="Id" size="20" onBlur="this.value=this.value.toUpperCase()"></td>
+            </tr>
+            <tr>
+                <td><b>Пароль:</b></td>
+                <td><input type="password" name="Pwd" size="20" onFocus="this.select();"></td>
+            </tr>
+            <tr>
+                <td><b>Проверка пароля:</b></td>
+                <td><input type="password" name="Pwd1" size="20" onFocus="this.select();"></td>
+            </tr>
+        </table>
+        <input type="button" value="Готово" onClick="Complete1();">
+        <input type="reset" value="Сброс">
+    </form>
 
-DIV {
-  width: 100%;
-  max-width: 80%;
-  height: 200px;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  box-shadow: 0 -200px 100px -120px crimson inset;
-  border-radius: .25em;
-  box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
-  border: 10px solid white;
-  animation: background 3s infinite alternate;
-}
+    <div id="tooltip"></div>
 
 @keyframes background {
   50% {
