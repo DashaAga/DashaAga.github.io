@@ -1,1 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
+body {
+  background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* выберите подходящий шрифт */
+  color: #fff; /* белый цвет текста */
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+a.link {
+  color: #fff; /* белый цвет ссылок */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+a.link:hover {
+  text-decoration: underline; /* подчеркивание при наведении */
+}
+
+.bi {
+  vertical-align: middle;
+  margin-right: 5px; /* добавление небольшого отступа между иконкой и текстом */
+}
