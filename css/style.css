@@ -5,13 +5,10 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-body {
   background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
-  transition: background 0.5s ease; /* Плавный переход градиента фона */
+  transition: background 0.5s ease;
 }
 
 header {
